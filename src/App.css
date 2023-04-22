@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.Signup {
+  background-color: #f5f5f5;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* * {
+  box-sizing: border-box;
+  font: inherit;
+} */
+
+body {
+  max-height: 1080px;
+  margin: 0;
+  max-width: 1920px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-height: 1080px;
+  max-width: 960px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.star {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+}
+/* .starOne {
+  width: 800px;
+  margin-right: 0%;
+  height: 1080px;
+  text-align: center;
+} */
+
+.imageText {
+  position: absolute;
+  top: 45%;
+}
+.imageText_3 {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  font-size: 38px;
+  font-weight: 50px;
+}
+.imageText_4 {
+  position: absolute;
+  top: 55%;
+  left: 15%;
+  font-size: 20px;
+  font-weight: 34px;
 }
 
-.App-link {
-  color: #61dafb;
+.text {
+  color: #141212;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.starOne {
+  width: 800px;
+  height: 1000px;
+}
+
+.right {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  /* max-width: 960px;
+  max-height: 1080px; */
+}
+
+/* form {
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 0;
+} */
+
+h1 {
+  color: rgb(26, 24, 26);
+  text-align: center;
+  font-size: 70px;
+}
+
+button {
+  border: none;
+  background: #d2cbd2;
+  border-radius: 50px;
 }
